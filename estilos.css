@@ -1,0 +1,98 @@
+:root {
+
+
+    --fuente : "Comic Sans MS", "Chalkboard SE", cursive;
+    --color-texto: red;
+    --color-fondo: rgb(76, 110, 110);
+    --color-primario:rgb(255, 255, 255);
+    --color-texto: rgb(17, 1, 17);
+    --color-fondo2: #984447;
+    --color-fondo3: #253541;
+}
+header{
+    font-family: var(--fuente);
+    color: var(--color-texto) ;
+    background-color: var(--color-fondo2);
+    font-size: 20px;
+    line-height: 1.6;
+}
+body {
+        font-family: var(--fuente);
+        color: var(--color-texto);
+        background-color: var(--color-fondo);
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    footer {
+        font-family: var(--fuente);
+        color: var(--color-texto);
+        background-color: var(--color-fondo3);
+        font-size: 16px;
+        line-height: 1.6; 
+    }
+#pepe {
+    background: linear-gradient(90deg, red,white, black,cyan);
+    -webkit-background-clip: text ;
+    background-clip: text;
+    color: transparent;
+     font-size: 70px;
+   
+    
+}
+* {
+    cursor: url('https://cdn.cursors-4u.net/css-previews/lime-electricity-lightning-04d61e78-css.webp') 0 0, auto !important;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--color-primario);
+    
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: var(--color-primario);
+    margin-bottom: 12px;
+
+}
+
+h3 {
+    font-size: 1.15rem;
+    color: var(--color-texto);
+    margin-bottom: 8px;
+    
+}
+
+a{
+    color: var(--blue)
+}
+
+#messi {
+    border-radius: 300px;
+    width: 300px;
+    height: 300px;
+}
+
+article:hover{
+    padding: 5%;
+    
+    
+}
+
+
+a:visited{
+   color: var(--cyan)
+}
+
+
+input:focus {
+    border-color: var(--purple);
+    box-shadow: 0 0 0 10px #7c3aed33;;
+ 
+}
+
+.boton:active {
+    transform: scale(1.2);
+    background: var(--color-primario);
+}
